@@ -1,0 +1,56 @@
+@media only screen and (max-width: 900px) {
+  .topBarHeading {
+    text-align: center;
+  }
+  .logo {
+    text-align: center;
+  }
+  .contactCont {
+    border: none;
+  }
+  .HeaderContact {
+    text-align: center;
+  }
+  .addToCartIcon {
+    margin-top: 0.7rem;
+  }
+  .cartItem {
+    top: 64px;
+    right: 105px;
+  }
+  .mainSeacrh {
+    padding: 0.4rem 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .navbar-toggler {
+    background-color: #fff;
+  }
+  .navigationRightManu {
+    margin-left: 0;
+  }
+  .homeSection .carousel-item img {
+    height: 200px;
+  }
+  .homeAddBox {
+    margin-bottom: 1rem;
+  }
+  .homeFeaturesBox {
+    text-align: center;
+  }
+  .mobileView {
+    justify-content: center;
+  }
+  .brandCatagorisTitle {
+    text-align: center;
+  }
+  .brandBox {
+    margin: auto;
+  }
+  .navigationManuBar li {
+    display: block;
+  }
+  .navigationManuBar li a {
+    display: block;
+    padding-bottom: 0.6rem;
+  }
+}

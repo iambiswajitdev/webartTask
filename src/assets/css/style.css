@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.topBar {
+  background-color: #eeeff2;
+}
+.topBarHeading {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 1.4rem;
+}
+.topManu {
+  color: #000;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 600;
+  padding: 0.5rem 0.7rem;
+}
+.topManu .nav-link {
+  padding: 0;
+}
+.topManu:hover {
+  text-decoration: none;
+}
+.header {
+  background-color: #fff;
+  padding: 0.6rem 0;
+}
+.searchBtn {
+  background: none !important;
+  color: #000 !important;
+  border: none;
+}
+.mainSeacrh {
+  border: 1px solid red;
+  border-radius: 0.3rem;
+  height: 50px;
+  padding: 0.4rem 0rem;
+}
+.headerSearchFild {
+  border: none;
+  height: 100%;
+}
+.headerSearchFild:focus {
+  box-shadow: none;
+}
+.allCatagori {
+  border-right: 1px solid #ccc;
+  text-transform: capitalize;
+}
+.HeaderContact {
+  margin: 0px 0rem 0 1.5rem;
+}
+.contactCont {
+  border-left: 1px solid #000;
+}
+.HeaderContact h1 {
+  font-size: 1rem;
+  display: block;
+}
+.HeaderContact p {
+  margin-bottom: 0;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.headerIcon {
+  font-size: 2rem;
+}
+.headerManuIcon {
+  display: block;
+}
+.headerManuItem {
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 0.7rem;
+  font-weight: 500;
+}
+.addToCartIcon {
+  display: block;
+  position: relative;
+}
+.cartItem {
+  position: absolute;
+  content: "";
+  top: -7px;
+  right: 44px;
+  width: 25px;
+  height: 25px;
+  background-color: #fe7c02;
+  z-index: 1;
+  border-radius: 50%;
+  text-align: center;
+  padding-bottom: 22px;
+}
+.headerManuItem:hover {
+  text-decoration: none;
+}
+.navigationBar {
+  background-color: #000;
+}
+.navigationBar .navbar {
+  padding: 0;
+}
+.browseCatagori {
+  background-color: #fe7c02;
+}
+.browseCatagori a {
+  padding: 0.8rem 1rem;
+  color: #fff;
+  text-transform: capitalize;
+}
+.browseCatagori .dropdown-item {
+  color: #000;
+}
+.navigationManuBar {
+  margin-bottom: 0;
+}
+.navigationManuBar li {
+  display: inline-block;
+}
+.navigationManuBar a {
+  display: inline-block;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 0rem 0.7rem;
+  color: #fff;
+  font-weight: 500;
+}
+.navigationRightManu {
+  color: #fff !important;
+  padding: 0px;
+  margin-left: 8rem;
+  text-transform: capitalize;
+  margin-right: 1.4rem;
+}
+.navigationRightManu:hover {
+  text-decoration: none;
+}
+.homeSection {
+  margin-top: 2rem;
+}
+.homeSection .carousel-item {
+  border-radius: 0.8rem;
+}
+.homeSection .carousel-item img {
+  border-radius: 0.8rem;
+  height: 400px;
+}
+.homeAddBox {
+  background-image: url("../images/shows.png");
+  width: 100%;
+  height: 170px;
+  border-radius: 0.5rem;
+  background-size: cover;
+  padding: 1rem;
+}
+.Box2 {
+  background-image: url("../images/beuty.png");
+}
+.Box3 {
+  background-image: url("../images/head.png");
+}
+.addBox {
+  margin: 2rem 0rem;
+}
+.catagoris {
+  margin-bottom: 0;
+}
+.catagoris li {
+  display: block;
+}
+.catagoris li a {
+  display: block;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding-bottom: 0.4rem;
+  color: #646161;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.sideBar {
+  background-color: #f5f5f5;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.homeAddBox h3 {
+  text-transform: uppercase;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0015ab;
+}
+.homeAddBox h1 {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: #f8f8f8;
+}
+.homeAddBox a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.Box2 h1 {
+  color: #000;
+}
+.Box2 a {
+  color: #000;
+}
+.Box3 h1 {
+  color: #000;
+}
+.Box3 a {
+  color: #000;
+}
+.homeFeatures {
+  margin-bottom: 2rem;
+}
+.homeFeaturesBox {
+  border: 2px solid #b9b9b9;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.featuresIcon {
+  font-size: 2rem;
+}
+.featuresTitle {
+  font-size: 1rem;
+  text-transform: capitalize;
+}
+.featuresDec {
+  margin-bottom: 0;
+  text-transform: capitalize;
+}
+.brandCatagorisTitle {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem;
+}
+.brandBox {
+  text-align: center;
+  width: 160px;
+  height: 160px;
+  background-color: #fff;
+  padding: 1.7rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 20px #ccc;
+}
+.brandBox img {
+  max-width: 100%;
+  height: 100%;
+}
+.bradTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+.brandSection {
+  margin-bottom: 2rem;
+}
+.cartItem p {
+  margin-bottom: -10px;
+}
+.viewAllCate {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.viewAllCate:hover {
+  text-decoration: none;
+}
